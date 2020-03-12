@@ -1,12 +1,11 @@
 Kristin's project
 
-
-#Overview
+Overview
 
 This will be the attendance sheet for the Louisville Hash House Harriers. Submit runs and hare attendance to existing runners names, add new runners, retrieve trail and hare stats for all runners in group. 
 
 
-#Technical Summary
+Technical Summary
 
 
 Backend: C#
@@ -22,7 +21,7 @@ DB:
 Front End: HTML, CSS, JavaScript
 
 
-#Getting Started
+Getting Started
 
 
 Clone the project
@@ -35,7 +34,7 @@ Enjoy creating, reading, updating, and deleting your example projects!
 
 
 
-#Features
+Features
 
 
 Techonolgy Catalog

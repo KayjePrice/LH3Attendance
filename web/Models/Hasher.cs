@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace web.Models 
 {     
@@ -16,10 +17,13 @@ namespace web.Models
 
     public class HasherTrail
     {
+        [ForeignKey ("HasherId")]
         public Hasher Hasher {get; set;}
         public Guid TrailId {get; set;}
         public Guid HasherId { get; set; }
+        [ForeignKey ("TrailId")]
         public Trail Trail {get; set;}
+
     }
 
     public class Trail

@@ -25,9 +25,9 @@ namespace web
                         HashName = "Kotex",
                         FirstName = "Matt",
                         LastName = "Leddington",
-                        City = "Louisville",
+                        City = "Louisville"
 
-                        // TechnologyType is an Enum, that means it has a string value, but it's saved as an int. 
+                      
 
                     },
                                new Hasher
@@ -37,7 +37,6 @@ namespace web
                         LastName = "Johnson",
                         City = "Louisville",
 
-                        // TechnologyType is an Enum, that means it has a string value, but it's saved as an int. 
 
                     },
                                new Hasher
@@ -47,7 +46,6 @@ namespace web
                         LastName = "Carr",
                         City = "Louisville",
 
-                        // TechnologyType is an Enum, that means it has a string value, but it's saved as an int. 
 
                     },
                                new Hasher
@@ -90,10 +88,10 @@ namespace web
 
                         // TechnologyType is an Enum, that means it has a string value, but it's saved as an int. 
 
-                    },
+                    }
                 };
                 // Add technology list as a change to be saved in the database.
-                context.AddRangeAsync();
+                context.AddRangeAsync(Hasher);
                 // Save any changes to the database.
                 context.SaveChangesAsync();
             }

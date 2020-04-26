@@ -46,6 +46,8 @@ namespace web.Controllers
         // GET: Hasher/Create
         public IActionResult Create()
         {
+             ViewData["HasherId"] = new SelectList(_context.Hashers, "Id", "Name");
+    ViewData["TrailId"] = new SelectList(_context.Trails, "Id", "Id");
             return View();
         }
 

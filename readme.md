@@ -2,7 +2,7 @@ Kristin's project
 
 Overview
 
-This will be the attendance sheet for the Louisville Hash House Harriers. Submit runs and hare attendance to existing runners names, add new runners, retrieve trail and hare stats for all runners in group. 
+This will be the attendance sheet for the Louisville Hash House Harriers. Submit runs attendance to existing runners names, add new runners, retrieve trail stats for all runners in group. 
 
 
 Technical Summary
@@ -10,15 +10,15 @@ Technical Summary
 
 Backend: C#
 
-Framework:
+Framework: ASP.NET Core MVC
 
-ORM: 
+ORM: EF Core
 
-Server: 
+Server: IIS
 
-DB: 
+DB: SQL
 
-Front End: HTML, CSS, JavaScript
+Front End: Bootstrap/JQuery HTML, CSS, JavaScript
 
 
 Getting Started
@@ -39,15 +39,20 @@ Features
 
 Techonolgy Catalog
 
-Can: create, read, update, and delete- Technologies
+Can: create, read, update, and add Hashers
 
-Example Project Catalog
+Can: create, read, update, and delete Trails
 
-Can: create, read, update, and delete- Example Projects
-
-Can assign a technology to a project in a many-to-many relationship
+Can assign a hasher to a trail in a many-to-many relationship
 
 
 
 
 Milestones
+Create a GitHub Repo and Start on a Project Plan
+ Scaffold a new .NET Core MVC Application
+ Model Relational [Hasher] Data
+ Generating a Code First Database
+ Creating CRUD Controllers
+ Creating CRUD Views
+ Creating a usable webpage that shows total trails hashers have run.
